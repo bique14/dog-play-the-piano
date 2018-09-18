@@ -1,0 +1,31 @@
+<html style="height: 100%">
+  <head>
+    <title></title>
+  </head>
+  <body style="height: 100%">
+    <img id="dog" src="default.jpg" style="height: 100%">
+    <audio id="play" src="left.m4a"></audio>
+  </body>
+  <script>
+    var img = document.getElementById("dog")
+    var sound = document.getElementById("play")
+    
+    document.addEventListener('contextmenu', e => {
+      e.preventDefault()
+      img.src = "right_hand_clicked.jpg"
+      sound.src = "right.m4a"
+      sound.play()
+    })
+
+    document.addEventListener('mousedown', () => {
+      img.src = "left_hand_clicked.jpg"
+      sound.src = "left.m4a"
+      sound.play()
+    })
+
+    document.addEventListener('mouseup', () => {
+      img.src = "default.jpg"
+    })
+    
+  </script>
+</html>
