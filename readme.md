@@ -1,5 +1,5 @@
 # Songs
-## Koisuru Fortune Cookie (恋するフォーチュンクッキー)
+### Koisuru Fortune Cookie (恋するフォーチュンクッキー)
 ###### Artist: BNK48
 ```
 intro
@@ -31,4 +31,43 @@ BcBcBcBcBcBcBn
 BcBcBcBcBcBcBn
 BcBcBcBcBcBcBncxx
 
+```
+
+### Shoichi (初日)
+###### Artist: BNK48
+```
+xxxxzjzx xnbBbj ccBx
+xxxxzb jjjjhghhjj
+xxxxzjzx xnbBbjccBx
+xxxxzb zjhghhggg
+
+cccxc BBBcB xxxzxxzxcmnm
+cccxc BBBcB BBBcBBBcBmnmb
+nccccnncc BcccBbnm
+
+ความฝันต้องเกิดหยาดเหงื่อจึงได้มา ~
+```
+
+### Kimi wa Melody (君はメロディー)
+###### Artist: BNK48
+```
+xxxxzjjz xxxczjh
+zzzzjhjzzxzjjhg
+jjhgghjjjzjhhgh hhghhghjhzj
+
+xxzjjzxx xcxzzjh
+zzjhhjzz zxjjjhg
+jjhgghjjjzjhhgh
+hgGgg
+
+ggjjxcccBcxjghj cccBcx
+jjhjjczjzxc ccxccBbB
+cBBbB
+
+ccBbBb bBb
+nnbBc BcB BcB
+jbBcxxxc cCcBjb gbBvbn
+ccB bBb bBb
+nnbBcBbnmb
+ccBbBcBb ccBbBbmmnbBnbb
 ```
