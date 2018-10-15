@@ -14,6 +14,11 @@
         padding: 10px;
         border-radius: 10px;
       }
+      button:focus {
+        outline: none;
+        background-color: #f4abec;
+        border: 1px solid white;
+      }
       #lyric {
         margin-top: 10px;
         display: block;
@@ -30,9 +35,9 @@
 
     <div class="column">
       <h1 style="text-align: center">Lyrics</h1>
-      <button onclick="lyric_kfc()">Koisuru Fortune Cookie</button>
-      <button onclick="lyric_shonichi()">Shonichi</button>
-      <button onclick="lyric_kimiwa()">Kimi wa Melody</button>
+      <button id="btn-kfc" onclick="lyric_kfc()">Koisuru Fortune Cookie</button>
+      <button id="btn-shonichi" onclick="lyric_shonichi()">Shonichi</button>
+      <button id="btn-kimiwa" onclick="lyric_kimiwa()">Kimi wa Melody</button>
       <textarea id="lyric" rows="30" cols="50" disabled>Lyric</textarea>
     </div>
 
