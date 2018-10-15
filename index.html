@@ -1,9 +1,41 @@
 <html style="height: 100%">
   <head>
-    <title></title>
+    <title>DOG</title>
+    <style>
+      .container:after {
+        display: table-row;
+        clear: both;
+      }
+      .column {
+        height: 100%;
+        float: left;
+      }
+      button {
+        padding: 10px;
+        border-radius: 10px;
+      }
+      #lyric {
+        margin-top: 10px;
+        display: block;
+        overflow: scroll;
+        font-size: 20px;
+        resize: none;
+      }
+    </style>
   </head>
-  <body style="height: 100%">
-    <img id="dog" src="default.jpg" style="height: 100%">
+  <body class="container">
+    <div class="column">
+      <img id="dog" src="default.jpg" style="height: 100%">
+    </div>
+
+    <div class="column">
+      <h1 style="text-align: center">Lyrics</h1>
+      <button onclick="lyric_kfc()">Koisuru Fortune Cookie</button>
+      <button onclick="lyric_shonichi()">Shonichi</button>
+      <button onclick="lyric_kimiwa()">Kimi wa Melody</button>
+      <textarea id="lyric" rows="30" cols="50" disabled>Lyric</textarea>
+    </div>
+
     <audio id="play" src="left.m4a"></audio>
 
     <audio id="c-" src="left.m4a"></audio> 
@@ -44,28 +76,29 @@
     <audio id="ab+" src="left.m4a"></audio>
     <audio id="b+" src="left.m4a"></audio>
     <audio id="bb+" src="left.m4a"></audio>
-
+    
   </body>
+  <script src="./lyrics.js"></script>
   <script>
     var img = document.getElementById("dog")
     var sound = document.getElementById("play")
     
-    document.addEventListener('contextmenu', e => {
-      e.preventDefault()
-      img.src = "right_hand_clicked.jpg"
-      sound.src = "right.m4a"
-      sound.play()
-    })
+    // document.addEventListener('contextmenu', e => {
+    //   e.preventDefault()
+    //   img.src = "right_hand_clicked.jpg"
+    //   sound.src = "right.m4a"
+    //   sound.play()
+    // })
 
-    document.addEventListener('mousedown', () => {
-      img.src = "left_hand_clicked.jpg"
-      sound.src = "left.m4a"
-      sound.play()
-    })
+    // document.addEventListener('mousedown', () => {
+    //   img.src = "left_hand_clicked.jpg"
+    //   sound.src = "left.m4a"
+    //   sound.play()
+    // })
 
-    document.addEventListener('mouseup', () => {
-      img.src = "default.jpg"
-    })
+    // document.addEventListener('mouseup', () => {
+    //   img.src = "default.jpg"
+    // })
 
     
     var Clow = document.getElementById("c-")
