@@ -10,7 +10,7 @@ __BNK 48__
 * [Koisuru Fortune Cookie คุกกี้เสี่ยงทาย](#koisuru-fortune-cookie) <br>
 * [Shonichi วันแรก](#shoichi) <br>
 * [Kimi wa melody เธอคือ...เมโลดี้](#kimi-wa-melody) <br>
-* [365 Nichi no Kamihikouki 365วันกับเครื่องบินกระดาษ](365-nichi-no-kamihikouki)
+* [365 Nichi no Kamihikouki 365วันกับเครื่องบินกระดาษ](#365-nichi-no-kamihikouki)
 
 
 ___
