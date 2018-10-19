@@ -42,6 +42,8 @@ BcBcBcBcBcBcBn
 BcBcBcBcBcBcBncxx
 
 ```
+###### [GO TOP](#black-dog-play-the-piano)
+<br>
 
 ### Shoichi
 ###### Artist: BNK48
@@ -57,6 +59,8 @@ nccccnncc BcccBbnm
 
 ความฝันต้องเกิดหยาดเหงื่อจึงได้มา ~
 ```
+###### [GO TOP](#black-dog-play-the-piano)
+<br>
 
 ### Kimi wa Melody
 ###### Artist: BNK48
@@ -81,4 +85,5 @@ ccB bBb bBb
 nnbBcBbnmb
 ccBbBcBb ccBbBbmmnbBnbb
 ```
-
+###### [GO TOP](#black-dog-play-the-piano)
+<br>
