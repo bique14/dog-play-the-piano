@@ -4,7 +4,8 @@ demo : https://bique14.github.io/dog-play-the-piano/index.html
 ## Lists of songs
 __BNK 48__
 > [Koisuru Fortune Cookie](#Koisuru-Fortune-Cookie-(恋するフォーチュンクッキー))<br>
-> [Koisuru Fortune Cookie](#Koisuru-Fortune-Cookie-(恋するフォーチュンクッキー))
+> [Shonichi](#Shoichi-(初日))<br>
+> [Kimi wa melody](#Kimi-wa-Melody-(君はメロディー))
 
 
 ___
