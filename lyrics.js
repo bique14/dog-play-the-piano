@@ -64,3 +64,38 @@ nnbBcBbnmb
 ccBbBcBb ccBbBbmmnbBnbb
 `
 }
+
+function lyric_365() {
+  document.getElementById("lyric").innerHTML = `intro
+j zxbnbb
+bnmnBb
+xbnmnb[xb]
+
+xbbbBcxcxx
+jxccccbcBj
+jxccbnbBbBcc
+xcccmbmn
+
+xbbbBcxcxx
+jxccccbcBj
+jxccbnnbnmnbb
+xcmnbcbb
+
+cBbbbbbxx
+xcBbbbbnnbB
+cccxcB
+BBBcBb
+cBbbbmbmn
+
+bnbm mmm(C^)mn
+nnnmnb bnbBbx
+cBbBbnbnmmnnb
+bnzmnbn
+
+bbnbm mmm(C^)mn
+nnnmnb bnbBcx(C^)m
+cBbBbnbnmmnnb
+mnnnmxnb
+mnnnnnmxnb
+`
+}
