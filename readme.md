@@ -3,13 +3,13 @@ demo : https://bique14.github.io/dog-play-the-piano/index.html
 
 ## Lists of songs
 __BNK 48__
-> [Koisuru Fortune Cookie](#Koisuru-Fortune-Cookie-(恋するフォーチュンクッキー))<br>
-> [Shonichi](#Shoichi-(初日))<br>
-> [Kimi wa melody](#Kimi-wa-Melody-(君はメロディー))
+* [Koisuru Fortune Cookie](#koisuru-fortune-cookie) <br>
+* [Shonichi](#shoichi) <br>
+* [Kimi wa melody](#kimi-wa-melody)
 
 
 ___
-### Koisuru Fortune Cookie (恋するフォーチュンクッキー)
+### Koisuru Fortune Cookie
 ###### Artist: BNK48
 ```
 intro
@@ -43,7 +43,7 @@ BcBcBcBcBcBcBncxx
 
 ```
 
-### Shoichi (初日)
+### Shoichi
 ###### Artist: BNK48
 ```
 xxxxzjzx xnbBbj ccBx
@@ -58,7 +58,7 @@ nccccnncc BcccBbnm
 ความฝันต้องเกิดหยาดเหงื่อจึงได้มา ~
 ```
 
-### Kimi wa Melody (君はメロディー)
+### Kimi wa Melody
 ###### Artist: BNK48
 ```
 xxxxzjjz xxxczjh
@@ -81,3 +81,4 @@ ccB bBb bBb
 nnbBcBbnmb
 ccBbBcBb ccBbBbmmnbBnbb
 ```
+
