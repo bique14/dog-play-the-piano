@@ -99,3 +99,17 @@ mnnnmxnb
 mnnnnnmxnb
 `
 }
+
+function lyric_last_christmas() {
+  document.getElementById("lyric").innerHTML = `cccx xxcccxcB
+cccx xxcccxcB
+nnnb bbnnnbnn
+BBBc ccBBBcB
+
+cccx h cc B x
+jj cc B x 
+jXxXj
+Bc j BbBc
+jXxXXxXh
+`
+}
