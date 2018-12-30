@@ -68,7 +68,6 @@ var sounds = {
 
 document.onkeydown = function (e) {
   var soundId = sounds[e.keyCode];
-  console.log(soundId)
   if (e.shiftKey && e.keyCode === 87) { // w
     img.src = "right_hand_clicked.jpg"
     DlowB.src = './sound/เรต่ำb.mp3'
