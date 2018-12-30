@@ -2,7 +2,7 @@
 demo : https://bique14.github.io/dog-play-the-piano/index.html
 ___
 ## TODO
-* ~~connect lists of songs from firebase~~
+* ~~connect lists of songs from firebase~~ __DONE__
 ___
 
 ## Lists of songs
