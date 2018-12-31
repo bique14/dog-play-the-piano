@@ -11,7 +11,13 @@ __BNK 48__
 * [Shonichi วันแรก](#shoichi) <br>
 * [Kimi wa melody เธอคือ...เมโลดี้](#kimi-wa-melody) <br>
 * [365 Nichi no Kamihikouki 365วันกับเครื่องบินกระดาษ](#365-nichi-no-kamihikouki)
+* Anata to Christmas Eve
 
+__Wham!__
+* Last Christmas
+
+__Da__
+* คืนข้ามปี
 
 ___
 ### Koisuru Fortune Cookie
