@@ -22,6 +22,23 @@ window.addEventListener('load', async () => {
     await loadFileAsync('./sound/ซอลสูง.mp3');
     await loadFileAsync('./sound/ลาสูง.mp3');
     await loadFileAsync('./sound/ทีสูง.mp3');
+
+    await loadFileAsync('./sound/เรต่ำb.mp3');
+    await loadFileAsync('./sound/มีต่ำb.mp3');
+    await loadFileAsync('./sound/ซอลต่ำb.mp3');
+    await loadFileAsync('./sound/ลาต่ำb.mp3');
+    await loadFileAsync('./sound/ทีต่ำb.mp3');
+    await loadFileAsync('./sound/เรb.mp3');
+    await loadFileAsync('./sound/มีb.mp3');
+    await loadFileAsync('./sound/ซอลb.mp3');
+    await loadFileAsync('./sound/ลาb.mp3');
+    await loadFileAsync('./sound/ทีb.mp3');
+    await loadFileAsync('./sound/เรสูงb.mp3');
+    await loadFileAsync('./sound/มีสูงb.mp3');
+    await loadFileAsync('./sound/ซอลสูงb.mp3');
+    await loadFileAsync('./sound/ลาสูงb.mp3');
+    await loadFileAsync('./sound/ทีสูงb.mp3');
+
   } catch (err) {
     console.log(err);
   } finally {
@@ -35,7 +52,6 @@ const loadFileAsync = (url) => {
       let script = document.createElement('audio');
       script.src = url;
       document.body.appendChild(script);
-      console.log(script)
       resolve(true);
     } else {
       reject(false);
