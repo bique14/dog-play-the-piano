@@ -22,7 +22,6 @@ window.addEventListener('load', async () => {
     await loadFileAsync('./sound/ซอลสูง.mp3');
     await loadFileAsync('./sound/ลาสูง.mp3');
     await loadFileAsync('./sound/ทีสูง.mp3');
-
   } catch (err) {
     console.log(err);
   } finally {
