@@ -79,77 +79,77 @@ document.onkeydown = function (e) {
   if (e.shiftKey && e.keyCode === 87) {
     // w
     img.src = randomHand();
-    DlowB.src = soundId;
+    DlowB.src = './sound/เรต่ำb.mp3'
     DlowB.play();
   } else if (e.shiftKey && e.keyCode === 69) {
     // e
     img.src = randomHand();
-    ElowB.src = soundId;
+    ElowB.src = './sound/มีต่ำb.mp3';
     ElowB.play();
   } else if (e.shiftKey && e.keyCode === 84) {
     // t
     img.src = randomHand();
-    GlowB.src = soundId;
+    GlowB.src = './sound/ซอลต่ำb.mp3'
     GlowB.play();
   } else if (e.shiftKey && e.keyCode === 89) {
     // y
     img.src = randomHand();
-    AlowB.src = soundId;
+    AlowB.src = './sound/ลาต่ำb.mp3'
     AlowB.play();
   } else if (e.shiftKey && e.keyCode === 85) {
     // u
     img.src = randomHand();
-    BlowB.src = soundId;
+    BlowB.src = './sound/ทีต่ำb.mp3'
     BlowB.play();
   } else if (e.shiftKey && e.keyCode === 83) {
     // s
     img.src = randomHand();
-    DmiddleB.src = soundId;
+    DmiddleB.src = './sound/เรb.mp3'
     DmiddleB.play();
   } else if (e.shiftKey && e.keyCode === 68) {
     // d
     img.src = randomHand();
-    EmiddleB.src = soundId;
+    EmiddleB.src = './sound/มีb.mp3'
     EmiddleB.play();
   } else if (e.shiftKey && e.keyCode === 71) {
     // g
     img.src = randomHand();
-    GmiddleB.src = soundId;
+    GmiddleB.src = './sound/ซอลb.mp3'
     GmiddleB.play();
   } else if (e.shiftKey && e.keyCode === 72) {
     // h
     img.src = randomHand();
-    AmiddleB.src = soundId;
+    AmiddleB.src = './sound/ลาb.mp3'
     AmiddleB.play();
   } else if (e.shiftKey && e.keyCode === 74) {
     // j
     img.src = randomHand();
-    BmiddleB.src = soundId;
+    BmiddleB.src = './sound/ทีb.mp3'
     BmiddleB.play();
   } else if (e.shiftKey && e.keyCode === 88) {
     // x
     img.src = randomHand();
-    DhighB.src = soundId;
+    DhighB.src = './sound/เรสูงb.mp3'
     DhighB.play();
   } else if (e.shiftKey && e.keyCode === 67) {
     // c
     img.src = randomHand();
-    EhighB.src = soundId;
+    EhighB.src = './sound/มีสูงb.mp3'
     EhighB.play();
   } else if (e.shiftKey && e.keyCode === 66) {
     // b
     img.src = randomHand();
-    GhighB.src = soundId;
+    GhighB.src = './sound/ซอลสูงb.mp3'
     GhighB.play();
   } else if (e.shiftKey && e.keyCode === 78) {
     // n
     img.src = randomHand();
-    AhighB.src = soundId;
+    AhighB.src = './sound/ลาสูงb.mp3'
     AhighB.play();
   } else if (e.shiftKey && e.keyCode === 77) {
     // m
     img.src = randomHand();
-    BhighB.src = soundId;
+    BhighB.src = './sound/ทีสูงb.mp3'
     BhighB.play();
   } else if (e.keyCode === 81) {
     // q
