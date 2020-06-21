@@ -1,5 +1,5 @@
 # BLACK-DOG PLAY THE PIANO
-demo : https://bique14.github.io/dog-play-the-piano/index.html
+demo : https://bique14.github.io/dog-play-the-piano/src/index.html
 ___
 ## TODO
 * ~~connect lists of songs from firebase~~ __DONE__
