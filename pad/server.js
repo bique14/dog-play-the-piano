@@ -10,32 +10,32 @@ server.listen(port, (err) => {
   console.log('listening on', server.address())
 })
 
-app.use(require('express').static('static'))
+app.use(require('express').static('src'))
 
 io.on('connection', function (socket) {
   socket.on('type', client => {
     const { type } = client
     switch (type) {
       case 'C-key':
-        robotjs.typeString('a')
+        robotjs.keyTap('a')
         break;
       case 'D-key':
-        robotjs.typeString('s')        
+        robotjs.keyTap('s')
         break;
       case 'E-key':
-        robotjs.typeString('d')        
+        robotjs.keyTap('d')
         break;
       case 'F-key':
-        robotjs.typeString('f')        
+        robotjs.keyTap('f')
         break;
       case 'G-key':
-        robotjs.typeString('g')        
+        robotjs.keyTap('g')
         break;
       case 'A-key':
-        robotjs.typeString('h')        
+        robotjs.keyTap('h')
         break;
       case 'B-key':
-        robotjs.typeString('j')        
+        robotjs.keyTap('j')
         break;
     }
   })

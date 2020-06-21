@@ -9,3 +9,9 @@ button {
   width: 12%;
   height: 100%;
 }
+
+#keys-flex {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
