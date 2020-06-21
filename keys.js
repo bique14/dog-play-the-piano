@@ -130,147 +130,147 @@ var sounds = {
 document.onkeydown = function (e) {
   var soundId = sounds[e.keyCode];
   if (e.shiftKey && e.keyCode === 87) { // w
-    img.src = "right_hand_clicked.jpg"
+    img.src = "images/right_hand_clicked.jpg"
     DlowB.src = './sound/เรต่ำb.mp3'
     DlowB.play()
   } else if (e.shiftKey && e.keyCode === 69) { // e
-    img.src = "left_hand_clicked.jpg"
+    img.src = "images/left_hand_clicked.jpg"
     ElowB.src = './sound/มีต่ำb.mp3'
     ElowB.play()
   } else if (e.shiftKey && e.keyCode === 84) { // t
-    img.src = "right_hand_clicked.jpg"
+    img.src = "images/right_hand_clicked.jpg"
     GlowB.src = './sound/ซอลต่ำb.mp3'
     GlowB.play()
   } else if (e.shiftKey && e.keyCode === 89) { // y
-    img.src = "left_hand_clicked.jpg"
+    img.src = "images/left_hand_clicked.jpg"
     AlowB.src = './sound/ลาต่ำb.mp3'
     AlowB.play()
   } else if (e.shiftKey && e.keyCode === 85) { // u
-    img.src = "right_hand_clicked.jpg"
+    img.src = "images/right_hand_clicked.jpg"
     BlowB.src = './sound/ทีต่ำb.mp3'
     BlowB.play()
   } else if (e.shiftKey && e.keyCode === 83) { // s
-    img.src = "left_hand_clicked.jpg"
+    img.src = "images/left_hand_clicked.jpg"
     DmiddleB.src = './sound/เรb.mp3'
     DmiddleB.play()
   } else if (e.shiftKey && e.keyCode === 68) { // d
-    img.src = "right_hand_clicked.jpg"
+    img.src = "images/right_hand_clicked.jpg"
     EmiddleB.src = './sound/มีb.mp3'
     EmiddleB.play()
   } else if (e.shiftKey && e.keyCode === 71) { // g
-    img.src = "left_hand_clicked.jpg"
+    img.src = "images/left_hand_clicked.jpg"
     GmiddleB.src = './sound/ซอลb.mp3'
     GmiddleB.play()
   } else if (e.shiftKey && e.keyCode === 72) { // h
-    img.src = "right_hand_clicked.jpg"
+    img.src = "images/right_hand_clicked.jpg"
     AmiddleB.src = './sound/ลาb.mp3'
     AmiddleB.play()
   } else if (e.shiftKey && e.keyCode === 74) { // j
-    img.src = "left_hand_clicked.jpg"
+    img.src = "images/left_hand_clicked.jpg"
     BmiddleB.src = './sound/ทีb.mp3'
     BmiddleB.play()
   } else if (e.shiftKey && e.keyCode === 88) { // x
-    img.src = "right_hand_clicked.jpg"
+    img.src = "images/right_hand_clicked.jpg"
     DhighB.src = './sound/เรสูงb.mp3'
     DhighB.play()
   } else if (e.shiftKey && e.keyCode === 67) { // c
-    img.src = "left_hand_clicked.jpg"
+    img.src = "images/left_hand_clicked.jpg"
     EhighB.src = './sound/มีสูงb.mp3'
     EhighB.play()
   } else if (e.shiftKey && e.keyCode === 66) { // b
-    img.src = "right_hand_clicked.jpg"
+    img.src = "images/right_hand_clicked.jpg"
     GhighB.src = './sound/ซอลสูงb.mp3'
     GhighB.play()
   } else if (e.shiftKey && e.keyCode === 78) { // n 
-    img.src = "left_hand_clicked.jpg"
+    img.src = "images/left_hand_clicked.jpg"
     AhighB.src = './sound/ลาสูงb.mp3'
     AhighB.play()
   } else if (e.shiftKey && e.keyCode === 77) { // m
-    img.src = "right_hand_clicked.jpg"
+    img.src = "images/right_hand_clicked.jpg"
     BhighB.src = './sound/ทีสูงb.mp3'
     BhighB.play()
   } else if (e.keyCode === 81) { // q
-    img.src = "left_hand_clicked.jpg"
+    img.src = "images/left_hand_clicked.jpg"
     Clow.src = './sound/โดต่ำ.mp3'
     Clow.play()
   } else if (e.keyCode === 87) { // w
-    img.src = "right_hand_clicked.jpg"
+    img.src = "images/right_hand_clicked.jpg"
     Dlow.src = './sound/เรต่ำ.mp3'
     Dlow.play()
   } else if (e.keyCode === 69) { // e
-    img.src = "left_hand_clicked.jpg"
+    img.src = "images/left_hand_clicked.jpg"
     Elow.src = './sound/มีต่ำ.mp3'
     Elow.play()
   } else if (e.keyCode === 82) { // r
-    img.src = "right_hand_clicked.jpg"
+    img.src = "images/right_hand_clicked.jpg"
     Flow.src = './sound/ฟาต่ำ.mp3'
     Flow.play()
   } else if (e.keyCode === 84) { // t
-    img.src = "left_hand_clicked.jpg"
+    img.src = "images/left_hand_clicked.jpg"
     Glow.src = './sound/ซอลต่ำ.mp3'
     Glow.play()
   } else if (e.keyCode === 89) { // y
-    img.src = "right_hand_clicked.jpg"
+    img.src = "images/right_hand_clicked.jpg"
     Alow.src = './sound/ลาต่ำ.mp3'
     Alow.play()
   } else if (e.keyCode === 85) { // u
-    img.src = "left_hand_clicked.jpg"
+    img.src = "images/left_hand_clicked.jpg"
     Blow.src = './sound/ทีต่ำ.mp3'
     Blow.play()
   } else if (e.keyCode === 65) { // a
-    img.src = "right_hand_clicked.jpg"
+    img.src = "images/right_hand_clicked.jpg"
     Cmiddle.src = './sound/โด.mp3'
     Cmiddle.play()
   } else if (e.keyCode === 83) { // s
-    img.src = "left_hand_clicked.jpg"
+    img.src = "images/left_hand_clicked.jpg"
     Dmiddle.src = './sound/เร.mp3'
     Dmiddle.play()
   } else if (e.keyCode === 68) { // d
-    img.src = "right_hand_clicked.jpg"
+    img.src = "images/right_hand_clicked.jpg"
     Emiddle.src = './sound/มี.mp3'
     Emiddle.play()
   } else if (e.keyCode === 70) { // f
-    img.src = "left_hand_clicked.jpg"
+    img.src = "images/left_hand_clicked.jpg"
     Fmiddle.src = './sound/ฟา.mp3'
     Fmiddle.play()
   } else if (e.keyCode === 71) { // g
-    img.src = "right_hand_clicked.jpg"
+    img.src = "images/right_hand_clicked.jpg"
     Gmiddle.src = './sound/ซอล.mp3'
     Gmiddle.play()
   } else if (e.keyCode === 72) { // h
-    img.src = "left_hand_clicked.jpg"
+    img.src = "images/left_hand_clicked.jpg"
     Amiddle.src = './sound/ลา.mp3'
     Amiddle.play()
   } else if (e.keyCode === 74) { //  j
-    img.src = "right_hand_clicked.jpg"
+    img.src = "images/right_hand_clicked.jpg"
     Bmiddle.src = './sound/ที.mp3'
     Bmiddle.play()
   } else if (e.keyCode === 90) { // z
-    img.src = "left_hand_clicked.jpg"
+    img.src = "images/left_hand_clicked.jpg"
     Chigh.src = './sound/โดสูง.mp3'
     Chigh.play()
   } else if (e.keyCode === 88) { // x
-    img.src = "right_hand_clicked.jpg"
+    img.src = "images/right_hand_clicked.jpg"
     Dhigh.src = './sound/เรสูง.mp3'
     Dhigh.play()
   } else if (e.keyCode === 67) { // c
-    img.src = "left_hand_clicked.jpg"
+    img.src = "images/left_hand_clicked.jpg"
     Ehigh.src = './sound/มีสูง.mp3'
     Ehigh.play()
   } else if (e.keyCode === 86) { // v
-    img.src = "right_hand_clicked.jpg"
+    img.src = "images/right_hand_clicked.jpg"
     Fhigh.src = './sound/ฟาสูง.mp3'
     Fhigh.play()
   } else if (e.keyCode === 66) { // b
-    img.src = "left_hand_clicked.jpg"
+    img.src = "images/left_hand_clicked.jpg"
     Ghigh.src = './sound/ซอลสูง.mp3'
     Ghigh.play()
   } else if (e.keyCode === 78) { // n
-    img.src = "right_hand_clicked.jpg"
+    img.src = "images/right_hand_clicked.jpg"
     Ahigh.src = './sound/ลาสูง.mp3'
     Ahigh.play()
   } else if (e.keyCode === 77) { // m
-    img.src = "left_hand_clicked.jpg"
+    img.src = "images/left_hand_clicked.jpg"
     Bhigh.src = './sound/ทีสูง.mp3'
     Bhigh.play()
   }
