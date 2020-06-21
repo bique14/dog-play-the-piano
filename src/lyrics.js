@@ -1,3 +1,20 @@
+function lyric_psycho() {
+  document.getElementById("lyric").innerHTML = `g gfD sauas
+DaaUt DfgfDa Y
+
+DD DDDfgJg
+DDffDgss
+UU HHHHg aa HHHHg a
+zJHggggffDU
+
+D Df gJg
+UU DffDgss
+UU HHHHg aa HJg
+DzJHgDff DUfD
+
+[WIP] prehook (1.00)`
+}
+
 function lyric_kfc() {
   document.getElementById("lyric").innerHTML = `intro
 XxcBbBbn xcxcB
@@ -5,7 +22,7 @@ BbBbn xcxcB
 bnbnmnbcB nBcx
 cBjx
 
-xxccBB hjjxxj 
+xxccBB hjjxxj
 xxccBB hjjxxj
 jjXXxj XXxcxXx
 Bccxx

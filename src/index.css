@@ -18,6 +18,7 @@ button {
   padding: 10px;
   border-radius: 10px;
   margin-top: 4px;
+  cursor: pointer;
 }
 
 button:focus {
@@ -32,4 +33,11 @@ button:focus {
   overflow: scroll;
   font-size: 20px;
   resize: none;
+}
+
+
+#btn-psycho:hover {
+  background-color: #e95555;
+  border: 2px solid #e95555;
+  color: white;
 }
