@@ -4,21 +4,27 @@
     <link rel="stylesheet" type="text/css" href="index.css">
     <meta charset='utf-8'>
   </head>
-  <body class="flex-container ">
-    <div class="column">
-      <img id="dog" src="images/default.jpg" style="height: 50vmax">
-    </div>
+  <body>
+    <div class="flex-container">
+      <div class="column">
+        <img id="dog" src="images/default.jpg" style="height: 50vmax">
+      </div>
 
-    <div class="column">
-      <h1 style="text-align: center">Lyrics</h1>
-      <button id="btn-kfc" onclick="lyric_kfc()">Koisuru Fortune Cookie</button>
-      <button id="btn-shonichi" onclick="lyric_shonichi()">Shonichi</button>
-      <button id="btn-kimiwa" onclick="lyric_kimiwa()">Kimi wa Melody</button>
-      <button id="btn-365" onclick="lyric_365()">365 Nichi no Kamihikouki</button>
-      <button id="btn-lastchristmas" onclick="lyric_last_christmas()">Last Christmas</button>
-      <button id="btn-anatato">Anata to Christmas Eve</button>
-      <button id="btn-kuenkampee">คืนข้ามปี</button>
-      <textarea id="lyric" rows="30" cols="50" disabled>Lyric</textarea>
+      <div class="column">
+        <div class="column-flex">
+          <h1 style="text-align: center">Lyrics</h1>
+          <div>
+            <button id="btn-kfc" onclick="lyric_kfc()">Koisuru Fortune Cookie</button>
+            <button id="btn-shonichi" onclick="lyric_shonichi()">Shonichi</button>
+            <button id="btn-kimiwa" onclick="lyric_kimiwa()">Kimi wa Melody</button>
+            <button id="btn-365" onclick="lyric_365()">365 Nichi no Kamihikouki</button>
+            <button id="btn-lastchristmas" onclick="lyric_last_christmas()">Last Christmas</button>
+            <button id="btn-anatato">Anata to Christmas Eve</button>
+            <button id="btn-kuenkampee">คืนข้ามปี</button>
+          </div>
+          <textarea id="lyric" rows="30" cols="50" disabled>Lyric</textarea>
+        </div>
+      </div>
     </div>
 
     <audio id="play" src="sound/default.m4a"></audio>

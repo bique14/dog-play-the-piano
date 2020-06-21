@@ -1,6 +1,6 @@
 .flex-container {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 .column {
   flex: 10%;
@@ -9,15 +9,24 @@
   /* position: relative; */
 }
 
+.column-flex {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
 button {
   padding: 10px;
   border-radius: 10px;
+  margin-top: 4px;
 }
+
 button:focus {
   outline: none;
   background-color: #f4abec;
-  border: 1px solid white;
+  border: 2px solid #f4abec;
 }
+
 #lyric {
   margin-top: 10px;
   display: block;
