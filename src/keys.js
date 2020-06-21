@@ -1,5 +1,6 @@
 const soundFiles = [ "./sound/โดต่ำ.mp3", "./sound/เรต่ำ.mp3", "./sound/มีต่ำ.mp3", "./sound/ฟาต่ำ.mp3", "./sound/ซอลต่ำ.mp3", "./sound/ลาต่ำ.mp3", "./sound/ทีต่ำ.mp3", "./sound/โด.mp3", "./sound/เร.mp3", "./sound/มี.mp3", "./sound/ฟา.mp3", "./sound/ซอล.mp3", "./sound/ลา.mp3", "./sound/ที.mp3", "./sound/โดสูง.mp3", "./sound/เรสูง.mp3", "./sound/มีสูง.mp3", "./sound/ฟาสูง.mp3", "./sound/ซอลสูง.mp3", "./sound/ลาสูง.mp3", "./sound/ทีสูง.mp3", "./sound/เรต่ำb.mp3", "./sound/มีต่ำb.mp3", "./sound/ซอลต่ำb.mp3", "./sound/ลาต่ำb.mp3", "./sound/ทีต่ำb.mp3", "./sound/เรb.mp3", "./sound/มีb.mp3", "./sound/ซอลb.mp3", "./sound/ลาb.mp3", "./sound/ทีb.mp3", "./sound/เรสูงb.mp3", "./sound/มีสูงb.mp3", "./sound/ซอลสูงb.mp3", "./sound/ลาสูงb.mp3", "./sound/ทีสูงb.mp3" ];
 
+// Prepare sound files
 window.addEventListener("load", async () => {
   console.log("page loaded");
   try {
@@ -26,6 +27,7 @@ const loadFileAsync = (url) => {
   });
 };
 
+// Create audio tag
 const keys = [ "play", "c-", "d-", "db-", "e-", "eb-", "f-", "g-", "gb-", "a-", "ab-", "b-", "bb-", "c", "d", "db", "e", "eb", "f", "g", "gb", "a", "ab", "b", "bb", "c+", "d+", "db+", "e+", "eb+", "f+", "g+", "gb+", "a+", "ab+", "b+", "bb+" ];
 keys.map(k => {
   let audio = document.createElement("audio");
@@ -34,47 +36,17 @@ keys.map(k => {
   document.body.appendChild(audio);
 })
 
-var img = document.getElementById("dog");
-var sound = document.getElementById("play");
+// Create get element by ID
+const keyElementName = [ "img", "sound", "Clow", "Dlow", "DlowB", "Elow", "ElowB", "Flow", "Glow", "GlowB", "Alow", "AlowB", "Blow", "BlowB", "Cmiddle", "Dmiddle", "DmiddleB", "Emiddle", "EmiddleB", "Fmiddle", "Gmiddle", "GmiddleB", "Amiddle", "AmiddleB", "Bmiddle", "BmiddleB", "Chigh", "Dhigh", "DhighB", "Ehigh", "EhighB", "Fhigh", "Ghigh", "GhighB", "Ahigh", "AhighB", "Bhigh", "BhighB" ]
+const keyElement = ["dog", ...keys]
 
-var Clow = document.getElementById("c-");
-var Dlow = document.getElementById("d-");
-var DlowB = document.getElementById("db-");
-var Elow = document.getElementById("e-");
-var ElowB = document.getElementById("eb-");
-var Flow = document.getElementById("f-");
-var Glow = document.getElementById("g-");
-var GlowB = document.getElementById("gb-");
-var Alow = document.getElementById("a-");
-var AlowB = document.getElementById("ab-");
-var Blow = document.getElementById("b-");
-var BlowB = document.getElementById("bb-");
+const zip = keyElementName.map(function(e, i) {
+  return [e, keyElement[i]];
+});
 
-var Cmiddle = document.getElementById("c");
-var Dmiddle = document.getElementById("d");
-var DmiddleB = document.getElementById("db");
-var Emiddle = document.getElementById("e");
-var EmiddleB = document.getElementById("eb");
-var Fmiddle = document.getElementById("f");
-var Gmiddle = document.getElementById("g");
-var GmiddleB = document.getElementById("gb");
-var Amiddle = document.getElementById("a");
-var AmiddleB = document.getElementById("ab");
-var Bmiddle = document.getElementById("b");
-var BmiddleB = document.getElementById("bb");
-
-var Chigh = document.getElementById("c+");
-var Dhigh = document.getElementById("d+");
-var DhighB = document.getElementById("db+");
-var Ehigh = document.getElementById("e+");
-var EhighB = document.getElementById("eb+");
-var Fhigh = document.getElementById("f+");
-var Ghigh = document.getElementById("g+");
-var GhighB = document.getElementById("gb+");
-var Ahigh = document.getElementById("a+");
-var AhighB = document.getElementById("ab+");
-var Bhigh = document.getElementById("b+");
-var BhighB = document.getElementById("bb+");
+zip.map(z => {
+  window[`${z[0]}`] = document.getElementById(`${z[1]}`)
+})
 
 var sounds = {
   81: "./sound/โดต่ำ.mp3", // q
