@@ -1,57 +1,61 @@
 var socket = io.connect();
 const containerKey = document.getElementById("keys-flex");
-// เรียงโน๊ตผิด ต้องเรียงใหม่!!
+
 const keys = [
   "c-",
-  "d-",
   "db-",
-  "e-",
+  "d-",
   "eb-",
+  "e-",
   "f-",
-  "g-",
   "gb-",
-  "a-",
+  "g-",
   "ab-",
-  "b-",
+  "a-",
   "bb-",
+  "b-",
   "c",
-  "d",
   "db",
-  "e",
+  "d",
   "eb",
+  "e",
   "f",
-  "g",
   "gb",
-  "a",
+  "g",
   "ab",
-  "b",
+  "a",
   "bb",
+  "b",
   "c+",
-  "d+",
   "db+",
-  "e+",
+  "d+",
   "eb+",
+  "e+",
   "f+",
-  "g+",
   "gb+",
-  "a+",
+  "g+",
   "ab+",
-  "b+",
+  "a+",
   "bb+",
+  "b+",
 ];
 
 const flatKeys = /[a-z]{1}[b]([+|-])?/g;
-keys.map((k) => {
-  let buttonKey = document.createElement("button");
-  
-  if(k.match(flatKeys)) {
-    console.log('1')
-    buttonKey.style.color = "white";
-    buttonKey.style.background = "black";
-
-  }
+const afterBlackKeys = /[b|e]{1}([+|-])?/g
+keys.map((k, i) => {
+  let buttonKey = document.createElement("li");
   buttonKey.id = k;
   buttonKey.innerHTML = k;
+
+  if(k.match(flatKeys)) {
+    buttonKey.className = "black-key"
+  } else {
+    buttonKey.className = "white-key"
+    if(k.match(afterBlackKeys)) {
+      buttonKey.style.width = "5rem"
+    }
+  }
+
   containerKey.appendChild(buttonKey);
 });
 
